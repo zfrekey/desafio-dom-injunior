@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Filype</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+        <h1 class="header__title">Filype</h1>
+
+        <input type="checkbox" id="menu-toggle">
+
+        <label for="menu-toggle" class="menu-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+
+        <div class="header__links">
+            <a class="header__links__link" href="">Home</a>
+            <a class="header__links__link" href="">Contact</a>
+        </div>
+        </div>
+    </header>
+    
+
+    <main class="main">
+        <section class="main__about__me">
+            <div class="main__about__me__image">
+                <img src="https://avatars.githubusercontent.com/u/62102835?s=400&u=e09b9b8e65492e18cf5ae43a7b5b116c8ba1ab2b&v=4" alt="Filype">
+            </div>
+            <div class="main__about__me__description">
+                <h2 class="main__about__me__description__title">About Me</h2> 
+                <p class="main__about__me__description__text">Hi! I'm Filype, a Computer Science student at UFF. I'm passionate about technology and I'm always looking for new challenges. I'm currently studying web development and I'm excited to learn more about it. In my free time, I enjoy reading books about the human mind, playing video games, and exploring new technologies.</p>
+            </div>
+        </section>
+
+        <section class="main__lists container">
+            <div class="main__list">
+                <h3 class="main__list__title__hobbie">My Hobbies</h3>
+                <div class="main__list__content">
+                    <div class="main__list__3__items">
+                        <div class="main__list__item">
+                            <img src="https://static.displate.com/324x454/displate/2023-06-12/6e217abc7f5bb5d0dc56e68752193a11_5c51574f5f2f216f9ef25a0d08fa6400.avif" alt="Playing video games">
+                            <p class="main__list__item__text">Video games</p>
+                        </div>
+                        <div class="main__list__item">
+                            <img src="https://img.posterstore.com/zoom/wb0176-8lordoftherings-theeyeofsauron50x70_colorcorrectedonlyforweb.jpg" alt="Go to the movie theater">
+                            <p class="main__list__item__text">Cinema</p>
+                        </div>
+                        <div class="main__list__item">
+                            <img src="https://www.netvasco.com.br/news/noticias16/arquivos/20210427-175723-1-.jpg" alt="Playing sports">
+                            <p class="main__list__item__text">Sports</p>
+                        </div>
+                    </div>
+                    <div class="main__list__2__items">
+                        <div class="main__list__item">
+                            <img src="./img/party.jpg" alt="Go to parties">
+                            <p class="main__list__item__text">Party</p>
+                        </div>
+                        <div class="main__list__item">
+                            <img src="https://scontent.fsdu24-1.fna.fbcdn.net/v/t39.30808-6/476073797_9626149217419946_8360244041186305713_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_ohc=a1lfTgBWpeoQ7kNvgFpjD-E&_nc_oc=AdjZFLCYThSuNKLjVU6Ic7CkaH8rSWdUFPKOA9ruJppRxKJ3B1J0FZyeSam5Q9SUF4k&_nc_zt=23&_nc_ht=scontent.fsdu24-1.fna&_nc_gid=AHxwNq-UELHslQJMSx91IrV&oh=00_AYATJTITFqTK1Z7Arg6W_AZFI-8DqpHVvhIU3lsLqBAnSg&oe=67AAC8F5" alt="Hit the gym">
+                            <p class="main__list__item__text">Gym</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="main__list">
+                <h3 class="main__list__title__movie">My Top 5 Marvel Movies</h3>
+                <div class="main__list__content">
+                    <div class="main__list__3__items">
+                        <div class="main__list__item">
+                            <div class="main__list__item__badge">1</div>
+                            <img src="./img/movie1.jpg" alt="Avengers: Endgame">
+                            <ul class="main__list__item__text">Avengers: Endgame</ul>
+                        </div>
+                        <div class="main__list__item">
+                            <div class="main__list__item__badge">2</div>
+                            <img src="./img/movie2.jpg" alt="Spider-Man: No Way Home">
+                            <ul class="main__list__item__text">Spider-Man: No Way Home</ul>
+                        </div>
+                        <div class="main__list__item">
+                            <div class="main__list__item__badge">3</div>
+                            <img src="./img/movie3.jpg" alt="Avengers: Infinity War">
+                            <ul class="main__list__item__text">Avengers: Infinity War</ul>
+                        </div>
+                    </div>
+                    <div class="main__list__2__items">
+                        <div class="main__list__item">
+                            <img src="./img/movie4.jpeg" alt="Guardians of the Galaxy Vol. 3">
+                            <p class="main__list__item__text">Guardians of the Galaxy Vol. 3</p>
+                        </div>
+                        <div class="main__list__item">
+                            <img src="./img/movie5.jpg" alt="The Avengers">
+                            <p class="main__list__item__text">The Avengers</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        
+        <section class="main__form container">
+                <h2 class="main__form__title">Feedback</h2>
+                <form  class="main__form__feedback" action="">
+                    <input id="feedback" name="feedback" placeholder="Give a feedback for your developer"></input> <br>
+                    <input type="text" id="name" name="name" placeholder="Enter your name"> <br>
+                    <button type="submit">Send</button>
+                </form>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container footer__media__query__container">
+        <div class="footer__social__medias">
+            <a class="footer__social__media__link" href="index.html">
+                <img src="./img/instagram.png" alt="Instagram">
+            </a>
+            <a class="footer__social__media__link" href="index.html">
+                <img src="./img/linkedin.png" alt="Linkedin">
+            </a>
+        </div>
+        <div class="footer__contact">
+            <button href="">Entrar em contato</button>
+        </div>
+        </div>
+    </footer>
+</body>
+</html>
