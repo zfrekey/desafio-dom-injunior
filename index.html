@@ -103,14 +103,17 @@
             </div>
         </section>
         
-        
         <section class="main__form container">
                 <h2 class="main__form__title">Feedback</h2>
-                <form  class="main__form__feedback" action="">
-                    <input id="feedback" name="feedback" placeholder="Give a feedback for your developer"></input> <br>
-                    <input type="text" id="name" name="name" placeholder="Enter your name"> <br>
-                    <button type="submit">Send</button>
-                </form>
+                <div class="main__form__feedback">
+                    <input id="feedback" name="feedback" placeholder="Give a feedback for your developer" required></input> <br>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required> <br>
+                    <button>Send</button>
+                </div>
+        </section>
+
+        <section class="main__answers container">
+            
         </section>
 
     </main>
@@ -126,9 +129,10 @@
             </a>
         </div>
         <div class="footer__contact">
-            <button href="">Entrar em contato</button>
+            <button id="button__contact">Entrar em contato</button>
         </div>
         </div>
     </footer>
+    <script src="./script.js"></script>
 </body>
 </html>

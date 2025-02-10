@@ -262,6 +262,32 @@ body {
     background-color: var(--cor-hover);
 }
 
+.main__answers {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-bottom: 2rem;
+    gap: 2rem;
+}
+
+.main__answers__answer {
+    border: 1px solid #000000;
+    background-color: var(--cor-terciaria);
+    border-radius: 5px;
+    width: 91.5%;
+    padding: 2rem;
+    overflow-wrap: break-word;
+}
+
+.main__answers__answer h2{
+    font-size: 24px;
+    padding-bottom: 0.8rem;
+}
+
+.main__answers__answer p{
+    font-size: 16px;
+}
+
 .footer {
     padding: 1.2rem 8rem;
     background-color: var(--cor-primaria);
@@ -390,6 +416,11 @@ body {
 
     .main__form__feedback button {
         align-self: center;
+    }
+
+    .main__answers{
+        justify-content: center;
+        padding-bottom: 2rem ;
     }
 
     .footer{
